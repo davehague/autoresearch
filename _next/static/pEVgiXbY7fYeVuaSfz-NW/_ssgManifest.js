@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002F[atlas]","\u002F[atlas]\u002Farticles\u002F[slug]","\u002F[atlas]\u002Fconcepts\u002F[slug]","\u002F[atlas]\u002Fsources\u002F[slug]","\u002F[atlas]\u002Fthemes\u002F[map]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
