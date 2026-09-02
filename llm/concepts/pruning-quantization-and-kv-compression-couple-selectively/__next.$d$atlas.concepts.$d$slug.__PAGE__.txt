@@ -1,0 +1,16 @@
+1:"$Sreact.fragment"
+2:I[22016,["/autoresearch/_next/static/chunks/0r.gvun96ahh1.js","/autoresearch/_next/static/chunks/0d3shmwh5_nmn.js","/autoresearch/_next/static/chunks/0oydr_fhff.qn.js"],""]
+4:I[97367,["/autoresearch/_next/static/chunks/0r.gvun96ahh1.js","/autoresearch/_next/static/chunks/0d3shmwh5_nmn.js","/autoresearch/_next/static/chunks/0oydr_fhff.qn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T433,): every claim in this vault that
+compression levers "compose" is an inference from single-lever numbers, because the pairs are never measured
+together. This paper measures three at once — structural pruning, weight quantization, KV-cache compression
+— for a single-GPU 70B deployment, and reports which pairs compose cleanly and which don't: pruning first
+leaves a cleaner distribution for the quantizer (helps); KV-cache sparsification and INT8 weight quantization
+draw on different resources and don't compete (compose cleanly); a static vector quantizer's fixed codebook
+fights a dynamic eviction/paging policy that keeps changing what's resident (conflicts). This doesn't close
+any of the specific untested pairs this map already names (prefix reuse × quantization, KV quantization ×
+weight quantization, speculation × KV quantization) — it's a different triple — but it's the first source
+here to demonstrate the map's "ask what currency each lever spends" yardstick applied directly to a
+three-way measurement rather than inferred from single-lever numbers.0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"space-y-6","children":[["$","$L2",null,{"href":"/llm","className":"text-xs text-muted-foreground hover:text-foreground","children":["← ","LLM Atlas"]}],["$","div",null,{"className":"prose prose-zinc dark:prose-invert max-w-none","children":[["$","h1","h1-0",{"children":"The first direct measurement of a three-lever compression stack, and it names which pairs fight"}],"\n",["$","p","p-0",{"children":[["$","$L2","a-0",{"href":"/llm/themes/local-inference","children":"local-inference"}]," has carried a standing complaint since 2026-07-29\n(",["$","$L2","a-1",{"href":"/llm/concepts/speculation-and-quantization-compete-for-the-same-headroom","children":"speculation-and-quantization-compete-for-the-same-headroom"}],"$3"]}],"\n",["$","p","p-1",{"children":"Bound: single hardware target (A40), single model scale (70B), workshop-tier venue (GroundLM @ EMNLP 2026),\nand the aggregate \"within 5% accuracy\" figure is not broken out per lever or per task — which of the three\ncouplings costs the most of that 5% isn't recoverable from the abstract-level result."}],"\n",["$","p","p-2",{"children":"Source: budget-aware-compression-pipeline-single-gpu"}]]}]]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"jOySSktn98Pw3ULYZKdkO"}
+6:null
