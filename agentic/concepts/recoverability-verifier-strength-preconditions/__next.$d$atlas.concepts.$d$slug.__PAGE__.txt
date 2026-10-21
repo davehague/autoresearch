@@ -1,0 +1,17 @@
+1:"$Sreact.fragment"
+2:I[22016,["/autoresearch/_next/static/chunks/0r.gvun96ahh1.js","/autoresearch/_next/static/chunks/0d3shmwh5_nmn.js","/autoresearch/_next/static/chunks/0oydr_fhff.qn.js"],""]
+4:I[97367,["/autoresearch/_next/static/chunks/0r.gvun96ahh1.js","/autoresearch/_next/static/chunks/0d3shmwh5_nmn.js","/autoresearch/_next/static/chunks/0oydr_fhff.qn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T453,This map's 2026-10-03 entry (added from a controlled testbed of stateful authorization tasks) found
+that a self-improvement loop's archive can keep an already-invalidated unsafe program top-ranked
+because historical eligibility reuses a stale recorded evaluation rather than the current contract —
+and that refreshing stored scores before resuming search fixes it, while editing the frozen founder
+rather than the failed current code is a second, separable lever for recovery. This source generalizes
+both halves of that finding into measurable preconditions rather than a single testbed incident.
+Verifier strength (sigma) names exactly the quantity whose staleness or degeneracy the 2026-10-03 entry
+diagnosed via an authorization-dependency change — here it is caught directly, by comparing the
+deployed verifier against a trusted reference, and found degenerate in roughly a quarter of tested
+configurations, invisibly (no error raised). Recoverability's g/rho/beta decomposition gives the
+"refresh the stored score" and "edit the founder, not the failed code" interventions a shared vocabulary
+for 0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"space-y-6","children":[["$","$L2",null,{"href":"/agentic","className":"text-xs text-muted-foreground hover:text-foreground","children":["← ","Agentic Eng Atlas"]}],["$","div",null,{"className":"prose prose-zinc dark:prose-invert max-w-none","children":[["$","h1","h1-0",{"children":"A self-improvement loop's verifier can look healthy while returning the same score to everything, and \"rolling back\" a bad change only works if the old version was literally kept — this gives both failure modes measured names and a concrete unattended-operation decision rule"}],"\n",["$","p","p-0",{"children":["$3",["$","em","em-0",{"children":"why"}]," they work: g=0 (stored-copy rollback) restores behavior exactly, while a regenerated undo\n(g=1) is a different, measurably weaker operation — the same distinction this map's control-plane\nfinding was gesturing at without naming. The blast-radius result (17% of tasks flip while a change is\nlive, net pass rate unchanged) is new to this map: it shows an admitted, individually-passing change can\nstill be net-harmful to the task population, hidden by an aggregate metric that only tracks the mean."]}],"\n",["$","p","p-1",{"children":[["$","strong","strong-0",{"children":"Bounds:"}]," single platform, airline domain primarily with one retail-domain check; only prompt, tool\nand skill edits were tested end to end, weight updates explicitly out of scope and not assumed to\ntransfer; the reference verifier's own coverage is narrow (communication checks apply to only 4 of 80\ntest trajectories); Experiment A testing whether sigma predicts which changes get picked was\nunderpowered (p=0.23) by the authors' own statement."]}]]}]]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"FX8lGo4mjL1RsNXvM2OM7"}
+6:null

@@ -1,0 +1,20 @@
+1:"$Sreact.fragment"
+2:I[22016,["/autoresearch/_next/static/chunks/0r.gvun96ahh1.js","/autoresearch/_next/static/chunks/0d3shmwh5_nmn.js","/autoresearch/_next/static/chunks/0oydr_fhff.qn.js"],""]
+4:I[97367,["/autoresearch/_next/static/chunks/0r.gvun96ahh1.js","/autoresearch/_next/static/chunks/0d3shmwh5_nmn.js","/autoresearch/_next/static/chunks/0oydr_fhff.qn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T5e7,This map's substrate-cost strand (2) carries case studies of teams deliberately tuning harness-level
+inference and serving configuration to cut cost — trimming system prompts, offloading tools to dynamic
+loading, setting cache breakpoints — each a single-team account of a configuration change paired with a
+measured before/after cost. This source is a different kind of evidence entirely: a population snapshot
+of what 5,398 real repositories actually set, with no outcome measurement attached to any of it. Read
+against the map's existing harness-trim findings, it supplies the missing denominator — those case
+studies are examples of teams deliberately exercising a small slice of a configuration space this paper
+shows is, by default, left almost entirely at backend defaults (a median of 2-4 explicitly set options,
+78.9% of documented options touched by at most one repository in ten). The context-dependent adoption
+gaps (up to 30.7pp) are an unplanned instance of this map's core claim that the harness dominates
+behavior independent of the model: here the "harness" is the inference-serving configuration itself, and
+which knobs get turned depends on the kind of application being built, not on any comparison of
+alternatives. The paper's own caution is worth carrying into this map directly — low adoption of an
+option may reflect low awareness rather than low value, so this source should not be read as ranking
+which options matter, only as measuring which ones get explicit attention today.0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"space-y-6","children":[["$","$L2",null,{"href":"/agentic","className":"text-xs text-muted-foreground hover:text-foreground","children":["← ","Agentic Eng Atlas"]}],["$","div",null,{"className":"prose prose-zinc dark:prose-invert max-w-none","children":[["$","h1","h1-0",{"children":"A population-scale look at what inference configuration actually looks like in the wild: most teams set almost none of the available knobs, and which few they set tracks what kind of agent they're building, not any measured outcome"}],"\n",["$","p","p-0",{"children":"$3"}],"\n",["$","p","p-1",{"children":[["$","strong","strong-0",{"children":"Bounds:"}]," only 36.1% of configured repositories could be mapped to an application context, so the\ncontext-gap figures rest on little more than a third of the corpus; the study covers three specific\nbackends (Transformers, vLLM, OpenAI API) in Python repositories only, excluding other serving stacks and\nany configuration applied outside the repository (cloud-managed endpoints, infra-as-code); purely\ndescriptive with no statistical significance testing and, by design, no outcome/performance measurement\nof any kind."]}]]}]]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"FX8lGo4mjL1RsNXvM2OM7"}
+6:null
