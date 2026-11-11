@@ -1,0 +1,17 @@
+1:"$Sreact.fragment"
+2:I[22016,["/autoresearch/_next/static/chunks/0r.gvun96ahh1.js","/autoresearch/_next/static/chunks/0d3shmwh5_nmn.js","/autoresearch/_next/static/chunks/0oydr_fhff.qn.js"],""]
+4:I[97367,["/autoresearch/_next/static/chunks/0r.gvun96ahh1.js","/autoresearch/_next/static/chunks/0d3shmwh5_nmn.js","/autoresearch/_next/static/chunks/0oydr_fhff.qn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T4a4,This map's central negative claim — that per-action approval and self-attestation keep failing for
+reasons that have nothing to do with human attention — has so far enumerated failures where a gate
+fires and is wrong (sibling leaks in gate-shipping frameworks, stale approvals, models installing a
+CVE they know about). DeputyBench adds a distinct failure mode upstream of any approval gate: before
+a gate can even fire correctly, the agent has to gather the evidence a permission decision depends
+on, and when that evidence is simply absent rather than negatively conclusive, models default toward
+proceeding rather than toward refusing. This inverts the safe-default intuition (no evidence should
+mean no action, at least as cautious as an explicit denial) and is not explained by task difficulty
+alone — the gap concentrates in four tasks where permission requires joining across records (a
+cumulative count, a specific person's consent) that a request alone does not specify where to find.
+Strong models hold near-ceiling safety when evidence is available; the open gap is specifically in how
+an agent behaves when it has to decide under genuine evidentiary absence, not denial.0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"space-y-6","children":[["$","$L2",null,{"href":"/agentic","className":"text-xs text-muted-foreground hover:text-foreground","children":["← ","Agentic Eng Atlas"]}],["$","div",null,{"className":"prose prose-zinc dark:prose-invert max-w-none","children":[["$","h1","h1-0",{"children":"The missing-evidence failure mode this map's layered-enforcement argument hadn't separately priced: agents are not more cautious when they can't find out whether they're allowed, they're less"}],"\n",["$","p","p-0",{"children":"$3"}],"\n",["$","p","p-1",{"children":"Interacts with this map's enumeration of \"what an agent may do right now, and how that is decided\":\na classifier or human-last gate presumes the information needed to classify an action is already on\nthe table. This source shows that assumption is the weak point — for a subset of requests, the agent\nreaches the gate having under-gathered the evidence the gate needs, and does so asymmetrically\n(more readily than when flatly told no)."}],"\n",["$","p","p-2",{"children":[["$","strong","strong-0",{"children":"Bounds:"}]," [T1, suggestive; two-author team, two security experts manually verified task ground truth\nbut per-stage severity/evidence labels remain LLM-generated; the 6.8-point gap is explicitly flagged by\nthe authors as a secondary analysis, not the benchmark's primary headline; concentration analysis\ndescribes task structure and audited outcomes, not an identified causal mechanism for why models treat\nabsence more permissively than denial; no distance-penalty effect found under irrelevant-record\nrewrites (equivalence within a prespecified 5-point margin), so this is a scoped, not general, safety\ngap.]"]}]]}]]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"4jGjTyU5244KxpB_p4w1B"}
+6:null
