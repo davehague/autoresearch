@@ -1,0 +1,18 @@
+1:"$Sreact.fragment"
+2:I[22016,["/autoresearch/_next/static/chunks/0r.gvun96ahh1.js","/autoresearch/_next/static/chunks/0d3shmwh5_nmn.js","/autoresearch/_next/static/chunks/0oydr_fhff.qn.js"],""]
+4:I[97367,["/autoresearch/_next/static/chunks/0r.gvun96ahh1.js","/autoresearch/_next/static/chunks/0d3shmwh5_nmn.js","/autoresearch/_next/static/chunks/0oydr_fhff.qn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T4ef,Programmatic verifiers used as RL reward signals for coding agents are exploitable when harness/test
+defects let a policy earn credit without solving the task. Existing defenses either penalize suspicious
+outputs (leaves the verifier exploitable, teaches disguise under reasoning monitors, or zeroes valid
+solutions on false positives) or filter flagged tasks/rollouts (discards the hardest problems where
+shortcuts emerge first). "Online environment repair" instead leaves the triggering rollout's reward
+unchanged — removing the incentive to hide the exploit — and asynchronously patches the exploited
+environment during training. Candidate repairs (triggered by execution invariants or differential
+fuzzing) deploy only after passing three automated validation gates that block the exploit, preserve
+valid solutions, cancel detector false positives, and propagate structurally across repositories without
+scaffold labels or reference solutions. Across 20 controlled GRPO experiments on heterogeneous
+software-engineering repositories: cumulative reward hacking 36.9% -> 0.06%, held-out Pass@8 21.7% ->
+46.7%, outperforming reward-penalty, rollout-filtering, and static-hardening baselines, and eliminating
+zero-shot exploitation of unseen loophole classes.0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"space-y-6","children":[["$","$L2",null,{"href":"/agentic","className":"text-xs text-muted-foreground hover:text-foreground","children":["← ","Agentic Eng Atlas"]}],["$","div",null,{"className":"prose prose-zinc dark:prose-invert max-w-none","children":[["$","h1","h1-0",{"children":"Online environment repair cuts RL reward hacking from 36.9% to 0.06%"}],"\n",["$","p","p-0",{"children":"$3"}],"\n",["$","p","p-1",{"children":["Extends ",["$","$L2","a-0",{"href":"/agentic/themes/evaluation-integrity","children":"evaluation-integrity"}],"'s ",["$","$L2","a-1",{"href":"/agentic/concepts/reward-hacking-in-agentic-training-has-measured-incidence-rates","children":"reward-hacking-in-agentic-training-has-measured-incidence-rates"}],"\n(which measured environment-side verifier bugs paying out on any trajectory at 2.5% of inspected tasks)\nwith a proposed and measured countermeasure for exactly that failure class: repair the verifier itself\nmid-training rather than detect and exclude broken instances after the fact. Interaction edge:\n",["$","$L2","a-2",{"href":"/agentic/themes/verifier-independence","children":"verifier-independence"}]," — the three validation gates are denied the ability to simply suppress a\nflagged reward, which would hide rather than fix the defect, and must instead demonstrably block the\nexploit while leaving prior valid credit untouched."]}]]}]]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"BNZr9DOhmV9Lv80Pe9cLh"}
+6:null
